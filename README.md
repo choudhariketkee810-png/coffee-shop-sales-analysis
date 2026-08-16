@@ -2,9 +2,12 @@
 
 ## 📌 Project Overview
 
-This project analyzes coffee shop sales data to identify sales trends, customer purchasing patterns, popular products, peak sales hours and store performance.
+This project analyzes coffee shop sales transaction data using SQL to identify
+sales trends, store performance, product performance, revenue patterns, and
+peak sales hours.
 
-The goal is to use data analysis to generate actionable business insights that can help improve sales and operational decisions.
+The objective is to transform raw transactional data into meaningful business
+insights that can support sales and operational decision-making.
 
 ## 🎯 Business Questions
 
@@ -24,40 +27,73 @@ The goal is to use data analysis to generate actionable business insights that c
 - SQL
 - PostgreSQL / MySQL
 - Microsoft Excel
-- Power BI
+- GitHub
 - Data Cleaning
 - Data Analysis
-- Data Visualization
 
 ## 📊 Key Analysis
 
 The analysis focuses on:
 
-- Revenue trends
+- Monthly sales trends
 - Transaction volume
-- Product performance
 - Store performance
-- Customer purchasing patterns
-- Peak sales hours
+- Product performance
 - Product category performance
+- Revenue analysis
+- Peak sales hours
+- Sales quantity analysis
 
-## 📈 Dashboard
+## 💡 Key Business Insights
 
-An interactive dashboard will be created using Power BI to visualize sales performance and key business insights.
+- Hell's Kitchen generated the highest revenue among the analyzed store locations.
+- Coffee was the highest-revenue product category.
+- Sustainably Grown Organic Lg was the top revenue-generating product.
+- Peak sales activity was observed during the morning business hours.
+- Store-level and hourly analysis can help optimize staffing and inventory planning.
+- Product-level analysis helps identify high-performing products for better stock and promotional decisions.
 
-## 💡 Key Insights
+## 📁 Project Files
 
-Key findings will be added after completing the SQL analysis and dashboard.
+| File | Description |
+|---|---|
+| `coffee_shop_sales_analysis.sql` | SQL queries used for data analysis |
+| `monthly_sales_output.csv` | Monthly sales analysis results |
+| `store_location_output.csv` | Store-level sales performance |
+| `category_sales_output.csv` | Product category sales results |
+| `product_sales_output.csv` | Product-level sales results |
+| `hourly_sales_output.csv` | Hourly sales analysis results |
+| `SQL_Insights.md` | Detailed business insights |
 
-## 📂 Project Structure
+## 🔍 SQL Concepts Used
 
-```text
-coffee-shop-sales-analysis/
-│
-├── README.md
-├── SQL/
-│   └── coffee_shop_analysis.sql
-├── Dataset/
-│   └── coffee_shop_sales.csv
-└── Dashboard/
-    └── dashboard.png
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- Aggregate Functions
+- SUM()
+- COUNT()
+- AVG()
+- CASE
+- Date & Time Functions
+- Revenue Calculation
+- Sorting and Filtering
+
+Revenue was calculated using:
+
+`transaction_qty × unit_price`
+
+## 📈 Analysis Outputs
+
+The SQL query results are provided as CSV files in this repository.
+These outputs demonstrate how SQL queries were used to answer business
+questions and generate actionable insights.
+
+## 🚀 Conclusion
+
+This project demonstrates the use of SQL to analyze transactional sales data
+and convert raw data into meaningful business insights.
+
+The analysis can help businesses understand sales patterns, identify
+high-performing products and stores, and make better operational decisions.
